@@ -4,7 +4,6 @@ sudo apt install apache2 -y
 sudo service apache2 start 
 sudo apt install default-jre -y
 
-
 sudo apt-get update -y
 sudo apt-get install ca-certificates curl -y
 sudo install -m 0755 -d /etc/apt/keyrings
