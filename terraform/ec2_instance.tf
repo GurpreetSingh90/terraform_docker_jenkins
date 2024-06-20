@@ -26,7 +26,7 @@ resource "aws_instance" "test" {
   tags = {
     Name = "test_server"
   }
-  user_data = file("apache.sh")
+  user_data = file("test.sh")
   key_name = "ap-south"
 }
 
@@ -37,7 +37,7 @@ resource "aws_instance" "prod" {
   tags = {
     Name = "prod_server"
   }
-  user_data = file("apache.sh")
+  user_data = file("prod.sh")
   //key_name = aws_key_pair.ssh_key.key_name
   key_name = "ap-south"
 }
