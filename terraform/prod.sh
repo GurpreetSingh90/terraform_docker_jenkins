@@ -20,5 +20,5 @@ sudo apt-get update -y
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
-curl -sO http://13.126.182.253:8080/jnlpJars/agent.jar
-java -jar agent.jar -url http://13.126.182.253:8080/ -secret d72e05980da047638eb74072e3f626a44bded15a450b56bdcad6c5e51d001ac9 -name Production -workDir "/home/ubuntu/jenkins"
+curl -sO http://13.233.40.217:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://13.233.40.217:8080/ -secret d72e05980da047638eb74072e3f626a44bded15a450b56bdcad6c5e51d001ac9 -name Production -workDir "/home/ubuntu/jenkins"
